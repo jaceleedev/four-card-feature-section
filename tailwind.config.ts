@@ -16,9 +16,6 @@ const config: Config = {
         charcoal: '#4D4F62',
         offWhite: '#FAFAFA',
       },
-      screens: {
-        desktop: '375px',
-      },
       fontFamily: {
         poppins: ['var(--font-poppins)'],
       },
