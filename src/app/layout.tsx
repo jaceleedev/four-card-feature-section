@@ -6,7 +6,7 @@ const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
   style: 'normal',
-  weight: ['300', '400', '600'],
+  weight: ['200', '400', '600'],
   variable: '--font-poppins',
 });
 

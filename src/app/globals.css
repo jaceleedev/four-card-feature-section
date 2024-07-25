@@ -4,7 +4,7 @@
 
 @layer utilities {
   .title-text-light {
-    @apply font-poppins text-[24px] font-light leading-[normal] text-charcoal tracking-[0.167px] sm:text-[36px] sm:tracking-[0.25px];
+    @apply font-poppins text-[24px] font-extralight leading-[normal] text-charcoal tracking-[0.167px] sm:text-[36px] sm:tracking-[0.25px];
   }
 
   .title-text-bold {
