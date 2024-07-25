@@ -35,6 +35,7 @@ function Card({
           alt={`${title} icon`}
           width={57}
           height={57}
+          className="w-[57px] h-[57px] sm:w-16 sm:h-16"
           aria-hidden="true"
         />
       </div>
