@@ -21,16 +21,24 @@ function Card({
   };
 
   return (
-    <div
-      className="flex flex-col w-[311px] h-[222px] p-7 border-t-4 rounded-lg bg-white shadow-[0_15px_30px_-11px_rgba(131,166,210,0.5)]"
+    <article
+      className="flex flex-col max-w-[311px] h-[222px] sm:max-w-[350px] sm:h-[250px] p-7 sm:p-8 border-t-4 rounded-lg bg-white shadow-[0_15px_30px_-11px_rgba(131,166,210,0.5)]"
       style={{ borderTopColor: borderColorMap[borderColor] }}
     >
-      <h3 className="card-title-text text-charcoal mb-[1px]">{title}</h3>
-      <p className="card-body-text w-full">{description}</p>
+      <header>
+        <h3 className="card-title-text mb-[1px] sm:mb-[6px]">{title}</h3>
+      </header>
+      <p className="card-body-text">{description}</p>
       <div className="mt-auto ml-auto">
-        <Image src={iconUrl} alt={`${title} icon`} width={57} height={57} />
+        <Image
+          src={iconUrl}
+          alt={`${title} icon`}
+          width={57}
+          height={57}
+          aria-hidden="true"
+        />
       </div>
-    </div>
+    </article>
   );
 }
 
