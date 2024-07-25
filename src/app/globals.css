@@ -4,11 +4,11 @@
 
 @layer utilities {
   .title-text-light {
-    @apply font-poppins text-[24px] font-extralight leading-[normal] text-charcoal tracking-[0.167px] sm:text-[36px] sm:tracking-[0.25px];
+    @apply font-poppins text-[24px] font-extralight leading-normal text-charcoal tracking-[0.167px] sm:text-[36px] sm:tracking-[0.25px];
   }
 
   .title-text-bold {
-    @apply font-poppins text-[24px] font-semibold leading-[normal] text-charcoal tracking-[0.167px] sm:text-[36px] sm:tracking-[0.25px];
+    @apply font-poppins text-[24px] font-semibold leading-normal text-charcoal tracking-[0.167px] sm:text-[36px] sm:tracking-[0.25px];
   }
 
   .body-text {
@@ -16,7 +16,7 @@
   }
 
   .card-title-text {
-    @apply font-poppins text-[20px] font-semibold leading-[normal] text-charcoal;
+    @apply font-poppins text-[20px] font-semibold leading-normal text-charcoal;
   }
 
   .card-body-text {
